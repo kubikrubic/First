@@ -1,0 +1,95 @@
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+.container {
+	margin-left: 320px;
+	margin-right: 320px;
+}
+
+.main-page {
+	position: relative;
+}
+.logo {
+	margin-top: 51px;
+	margin-bottom: 131px;
+}
+.menu {
+	background: #ffffea 30%;
+	box-shadow: -30px 30px 60px 0px #c6c4c426;
+
+	padding: 70px 80px 80px 80px;
+
+	border-radius: 10px;
+
+	width: 747px;
+	height: 390px;
+}
+
+.titleMenu {
+	font-family: "Cairo", sans-serif;
+	font-size: 54px;
+	font-weight: 700;
+	line-height: 70.2px;
+	color: #181616;
+	
+	margin-bottom: 30px;
+}
+
+.subtextMenu {
+	font-family: "Cairo", sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 31px;
+	color: #404040;
+	margin-bottom: 87px;
+}
+
+.sentMenu {
+	display: flex;
+	align-items: center;
+}
+
+textarea {
+	font-family: "Cairo", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	align-items: center;
+
+	border: none;
+	outline: none;
+	resize: none;
+	border-bottom: 1px solid #c3c3c3;
+	margin-right: 5.5rem;
+}
+
+textarea::placeholder {
+	color: #181616;
+}
+
+#buttomMenu-own {
+	background: #f0dc2a;
+
+	font-family: "Cairo", sans-serif;
+	font-size: 19px;
+	font-weight: 900;
+	line-height: 35.61px;
+	letter-spacing: 0.05em;
+
+	color: #404040;
+
+	border: none;
+	border-radius: 10px;
+	padding: 13px 35px;
+}
+
+.rocketImg {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
